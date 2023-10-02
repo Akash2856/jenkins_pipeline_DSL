@@ -9,7 +9,7 @@ stages{
 				echo "git pull my code"
 		      		}  
 	}
-
+ 
 	stage deploye('Deploy'){
 			Steps{ 
 		     	echo "deploying the code"
