@@ -9,17 +9,16 @@ stages{
 				echo "git pull my code"
 		      		}  
 	}
- 
+
 	stage('Deploy'){
 			Steps{ 
 		     	echo "deploying the code"
 		     	}
 	}
-
 	stage('Test'){
 			Steps{ 
 		     	echo "test my final webapp"
 		     	}
 	}
-
 }
+
