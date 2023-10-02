@@ -7,7 +7,7 @@ pipeline {
 		git 'https://github.com/Akash2856/maven.git'
             }
         }
-        stage('Deploy') {
+        stage('Build') {
             steps {
                 sh 'mvn clean package'
             }
