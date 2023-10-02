@@ -4,6 +4,7 @@ pipeline {
         stage('SCM') {
             steps {
                 echo "git pull my code"
+		git 'https://github.com/Akash2856/maven.git'
             }
         }
         stage('Deploy') {
